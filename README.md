@@ -1,6 +1,9 @@
 # EliasHir.github.io
 Web-sovellusten perusteet -24 lopputyö
 
+Linkki web sivulle:
+https://eliashir.github.io/
+
 HTML (25%)
 1/5:
 Basic HTML structure is present.

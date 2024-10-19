@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/home/user/project/index.html">Back to the main page</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <p>In this page, I will first demonstrate some additional JavaScript features through a simple quiz. You may find some tips from the main page...</p>
+            <button id="MyButtonQuiz" onclick="startQuiz()">Start Quiz</button>
+            <br>
+        </section>
+        <section id="generator">
+            <h2>Random Image Generator</h2>
+            <p>Now let's delve into asynchronous operations here. We are going to use them to generate random images from an external API.</p>
+            <button id="myButtonGenerator">Get Random Image</button>
+            <img id="randomImage" src="" alt="Random Image" style="display:none;">
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="../../../JavaScript/quiz.js"></script>
+</body>
+</html>

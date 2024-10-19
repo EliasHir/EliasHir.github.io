@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hi. I'm Elias. Welcome to my first Website.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#survey">Survey</a></li>
+            <li><a href="#misc">Additional features</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Feature table</h2>
+            <p>The following is a table of totally random facts about the world. Because why not.</p>
+            <table>
+                <tr>
+                  <th>Country</th>
+                  <th>Fact</th>
+                  <th>Additional note</th>
+                </tr>
+                <tr>
+                  <td>Iran</td>
+                  <td>Has had 28 capitals</td>
+                  <td>Current one is Teheran</td>
+                </tr>
+                <tr>
+                  <td>Peru</td>
+                  <td>Has over 2800 potato varieties</td>
+                  <td>Who counted them all?</td>
+                </tr>
+                <tr>
+                  <td>New York (yeah it's a city)</td>
+                  <td>Locals drink coffee 7x the amount an average american does</td>
+                  <td>Still less than average finn</td>
+                </tr>
+                <tr>
+                  <td>Australia</td>
+                  <td>There are more kangaroos than people</td>
+                  <td>At least Australia didn't wage war against them, like they did with the emu birds</td>
+                </tr>
+              </table>
+
+              <div class="button-container">
+                <button onclick="myButton1()">Press me</button>
+                <button onclick="myButton2()">Me too!</button>
+                <button onclick="myButton3()">Wanna try me?</button>
+                    <p id="popup"></p>
+              </div>
+            <br>
+            <br>
+        </section>
+
+        <section id="survey">
+            <h2>A quick survey. Just for fun.</h2>
+            <form id="surveyForm">
+
+                <p>Please tell your name first.</p>
+                <label>Name:</label><input type="text" id="name" name="name"><br>
+
+                <p>Next select your age group.</p>
+                <input type="radio" id="group1" name="ageGroup" value="age group1">
+                <label for="group1"> I am 0-9 years old</label><br>
+
+                <input type="radio" id="group2" name="ageGroup" value="age group2">
+                <label for="group2"> I am 10-19 years old</label><br>
+
+                <input type="radio" id="group3" name="ageGroup" value="age group3">
+                <label for="group3"> I am 20-29 years old</label><br>
+
+                <p>Now select your educational background.</p>
+                <input type="checkbox" id="school1" name="school" value="Comprehensive">
+                <label for="school1"> Comprehensive school</label><br>
+
+                <input type="checkbox" id="school2" name="school" value="High school">
+                <label for="school2"> High school</label><br>
+
+                <input type="checkbox" id="school3" name="school" value="Vocational school">
+                <label for="school3"> Vocational school</label><br>
+
+                <input type="checkbox" id="school4" name="school" value="Higher education">
+                <label for="school4"> Higher education</label><br>
+
+                <input type="submit" value="Submit">
+            </form>
+
+        <div id="surveyResults" style="display: none;">
+            <h3>Your Survey Results:</h3>
+            <p><strong>Name:</strong> <span id="nameResult"></span></p>
+            <p><strong>Age Group:</strong> <span id="ageGroupResult"></span></p>
+            <p><strong>Educational Background:</strong> <span id="educationResult"></span></p>
+        </div>
+        </section>
+
+        <section id="misc">
+            <h3>Some basic HTML stuff...<br>
+                <a href="/home/user/project/portfolio.html" target="_blank"><img src="../project/pictures/mitenmeni.jpg" alt="meme" width="180" height="200"></a>
+            <p style="color:red;">(Click the picture above to move to another page.)</p>
+            <video width="300" height="240" autoplay muted loop controls><source src="../project/pictures/bengali.mp4" type="video/mp4">
+            </video>
+            <br>...just for reference.</h3>
+            <p>That's all for <em>here</em>, but you can explore further using the links on the page. Don't forget to fill the survey to see some additional features.</p>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="../../../JavaScript/surveyResults.js"></script>
+</body>
+</html>

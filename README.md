@@ -114,8 +114,8 @@ Advanced logic, looping through data, and dynamic DOM updates.
 Learn about Loops
 Learn about DOM Manipulation
 
-**-For-looppia käytetty quiz:js:ssä rivillä 16. Rivi 11 käytetty for-each.
--Dynamic DOM updatea hyödynnetty kun kyselyn tulokset ilmestyvät näkyviin niiden lähetyksen jälkeen (surveyResults.js rivi 21). DOM-elementtejä kuten querySelector(), querySelectorAll() ja getElementById käytetty riveillä 1-22.**
+**-For-looppia käytetty quiz:js:ssä rivillä 16. surveyResults.js rivi 11 käytetty for-each.
+-Dynamic DOM updatea hyödynnetty kun kyselyn tulokset ilmestyvät näkyviin niiden lähetyksen jälkeen (surveyResults.js rivi 21). DOM-elementtejä kuten querySelector(), querySelectorAll() ja getElementById käytetty surveyResults.js riveillä 1-22.**
 
 5/5:
 Consistent use of Object-Oriented JavaScript principles.
